@@ -53,4 +53,4 @@ public class YouTubeShowActivity extends AppCompatActivity {
 
     }
 }
-//todo 받아온 데이터들을 파싱해서 개별 뷰에 출력해보기
+//todo 받아온 데이터들을 파싱해서 개별 뷰에 출력해보기  언제할거냐 너

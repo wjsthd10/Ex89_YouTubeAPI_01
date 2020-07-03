@@ -23,3 +23,4 @@
     </application>
 
 </manifest>
+<!--    영상 보여주는 Activity에 configChanges 사용해서 전체화면으로 바꿔도 영상 계속나오도록변경    -->

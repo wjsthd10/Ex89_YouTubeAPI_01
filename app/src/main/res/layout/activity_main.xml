@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <com.google.android.youtube.player.YouTubePlayerView-->
+<!--        android:id="@+id/youtubeView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <Button
+        android:text="gotoYouTubeData activity"
+        android:onClick="clickBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="영상 패이지로"
+        android:onClick="clickBtn02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--    프래그먼트 만들면서 name속성 지정할때 임포트한 프로잭트명 가져와서 쓰기-->
+    <fragment
+        android:id="@+id/youtubeFragment01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"/>
+
+    <fragment
+        android:id="@+id/youtubeFragment02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"/>
+
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/thumbView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
